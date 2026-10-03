@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#061006">
+  <meta name="description" content="Lakshmi Nivasan B — Software Engineer | Backend • DevOps • Cloud">
+  <title>Lakshmi Nivasan B — Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+  <div id="boot" class="boot-screen">
+    <div class="boot-grid"></div><div class="boot-scan"></div>
+    <div class="boot-watch watch-wrap boot-watch">
+      <div class="watch-aura"></div><div class="watch-ring r1"></div><div class="watch-ring r2"></div><div class="watch-ring r3"></div>
+      <div class="watch-ticks" id="boot-ticks"></div>
+      <div class="watch-face"><small>NIVASAN / CORE-10</small><div class="watch-core"><div class="core-orbit"></div><b>+</b></div><strong>SYSTEM LINK</strong><span class="watch-status"><i></i> SYNCING</span></div>
+    </div>
+    <div class="boot-copy"><div class="micro">ENGINEERING PORTAL / BOOT SEQUENCE</div><h1>LAKSHMI<br><span>NIVASAN B</span></h1><div class="boot-modes"><b>SELECT</b><span>WORK</span><span>TOOLS</span><span>PROOF</span><span>EDUCATION</span></div><div class="boot-progress"><div id="boot-progress-bar"></div></div><div class="boot-meta"><span id="boot-percent">000%</span><span>NO ALIEN MODULES / ENGINEERING ONLY</span></div></div>
+  </div>
+
+  <div id="app" class="page hidden">
+    <header class="nav">
+      <a href="#home" class="wordmark"><span class="wordmark-icon">+</span> LNB<span>.</span></a>
+      <nav><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#stack">Stack</a><a href="#proof">Proof</a><a href="#contact">Contact</a></nav>
+      <div class="nav-actions"><button id="theme-toggle" class="theme">DAY</button><a class="nav-resume" href="/Lakshmi-Nivasan-Resume.pdf" target="_blank" rel="noreferrer">Resume ↗</a></div>
+    </header>
+
+    <div class="ticker"><div id="ticker-track"></div></div>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-left reveal"><div class="kicker"><span></span> SOFTWARE ENGINEER / BACKEND / DEVOPS / CLOUD</div><h1>Build it.<br><em>Operate it.</em><br>Prove it.</h1><p>I build practical software systems and document the work behind them — from Flask applications and OS monitoring to DevOps workflows and data-science study.</p><div class="hero-buttons"><a class="btn solid" href="#projects">Explore work ↗</a><a class="btn outline" href="https://www.linkedin.com/in/lakshmi-nivasan-b-387b09271/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div><div class="hero-facts"><div><b>Chennai</b><span>India</span></div><div><b>Zoho</b><span>DevOps Intern · 2025–26</span></div><div><b>IIT Madras</b><span>BS Data Science · ongoing</span></div></div></div>
+        <div class="hero-right reveal"><div id="main-watch" class="watch-wrap"><div class="watch-aura"></div><div class="watch-ring r1"></div><div class="watch-ring r2"></div><div class="watch-ring r3"></div><div class="watch-ticks" id="main-ticks"></div><div class="watch-face"><small>NIVASAN / CORE-10</small><div class="watch-core"><div class="core-orbit"></div><b>+</b><i></i></div><strong id="watch-label">WORK</strong><span class="watch-status"><i></i> ONLINE</span></div><div id="watch-dial" class="watch-dial"></div></div><div class="watch-caption"><span>INTERACTIVE WATCH</span><b>Click a mode to scan the portfolio</b></div></div></section>
+
+      <section id="watch-module" class="module-section reveal"><div class="module-rail"><span>WATCH MODE</span><b id="mode-number">01</b><em>/ 06</em></div><div class="module-main"><div><span id="mode-label" class="small-label">WORK</span><h2 id="mode-title">Selected Work</h2><p id="mode-text">Four working repositories across systems, web applications and LLM experimentation.</p></div><a id="mode-link" href="#projects" class="module-link">Open module ↗</a></div></section>
+
+      <section id="about" class="section"><div class="section-index">01</div><div class="section-content"><div class="section-head reveal"><span>PROFILE</span><h2>Engineering with<br><em>intent.</em></h2></div><div class="about-grid"><div class="reveal"><p class="lead">I am a final-year Computer Science engineering student pursuing a second academic path in Data Science at IIT Madras.</p><p>My portfolio is built around working repositories, internship experience and proof files rather than decorative claims.</p></div><div class="principles reveal"><div><b>01</b><strong>Build</strong><span>Turn requirements into working applications.</span></div><div><b>02</b><strong>Operate</strong><span>Understand Linux, deployment and automation.</span></div><div><b>03</b><strong>Verify</strong><span>Keep projects and credentials backed by evidence.</span></div></div></div></div></section>
+
+      <section id="experience" class="section"><div class="section-index">02</div><div class="section-content"><div class="section-head reveal"><span>EXPERIENCE</span><h2>Industry exposure<br><em>at Zoho.</em></h2></div><div class="exp-card reveal"><div><span>DEVOPS INTERN</span><h3>Zoho Corporation Private Limited</h3><p>Chennai · On-site</p></div><div class="exp-date"><strong>23 OCT 2025</strong><b>→</b><strong>31 JAN 2026</strong></div></div><div class="exp-proof reveal"><span>INTERNSHIP CERTIFICATE</span><a href="/proofs/zoho-devops-internship.pdf" target="_blank" rel="noreferrer">Open the actual proof ↗</a></div></div></section>
+
+      <section id="projects" class="section"><div class="section-index">03</div><div class="section-content"><div class="section-head reveal"><span>WORK</span><h2>Repositories with<br><em>real links.</em></h2></div><div id="project-grid" class="project-grid"></div></div></section>
+
+      <section id="stack" class="section"><div class="section-index">04</div><div class="section-content"><div class="section-head reveal"><span>TOOLS / TECHNOLOGIES</span><h2>Fast moving.<br><em>Still readable.</em></h2></div><div id="tool-stage" class="tool-stage reveal"><div class="tool-beam"></div></div></div></section>
+
+      <section id="education" class="section"><div class="section-index">05</div><div class="section-content"><div class="section-head reveal"><span>EDUCATION</span><h2>Two paths.<br><em>One direction.</em></h2></div><div class="edu-grid"><article class="reveal"><span>2022 — 2026</span><h3>B.E. Computer Science and Engineering</h3><p>Prince Shri Venkateshwara Padmavathy Engineering College</p><strong>CGPA 8.0</strong></article><article class="reveal"><span>2023 — PRESENT</span><h3>BS Data Science and Applications</h3><p>Indian Institute of Technology Madras</p><div class="edu-line"><span>Current CGPA <b>7.16</b></span><span>Project CGPA <b>7.50</b></span></div></article></div></div></section>
+
+      <section id="proof" class="section proof-section"><div class="section-index">06</div><div class="section-content"><div class="section-head reveal"><span>PROOF ARCHIVE</span><h2>The certificates<br><em>actually open.</em></h2></div><p class="proof-intro reveal">The proof cards below are backed by the actual certificate pages packaged in <code>public/proofs</code>. No empty placeholders.</p><div id="proof-tabs" class="proof-tabs reveal"></div><div id="proof-grid" class="proof-grid"></div></div></section>
+
+      <section id="contact" class="section"><div class="section-index">07</div><div class="section-content"><div class="contact-box reveal"><span>READY WHEN YOU ARE</span><h2>Let's build something<br><em>useful.</em></h2><p>Open to software engineering, backend, DevOps and related opportunities.</p><div class="contact-actions"><a class="btn solid" href="mailto:nivasowmy@gmail.com">Email ↗</a><a class="btn outline" href="https://www.linkedin.com/in/lakshmi-nivasan-b-387b09271/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a class="btn outline" href="/Lakshmi-Nivasan-Resume.pdf" target="_blank" rel="noreferrer">Resume ↗</a></div><div class="contact-email">nivasowmy@gmail.com</div></div></div></section>
+    </main>
+    <footer><span>© <span id="year"></span> Lakshmi Nivasan B</span><span>Engineering portfolio / evidence first</span></footer>
+  </div>
+
+  <div id="overlay" class="overlay hidden"><div id="modal" class="modal"></div></div>
+  <script src="/src/main.js"></script>
+</body>
+</html>
